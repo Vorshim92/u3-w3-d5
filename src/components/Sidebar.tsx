@@ -48,7 +48,9 @@ const Sidebar = () => {
         <Button className="login-btn" type="button">
           Login
         </Button>
-        <a href="#">Cookie Policy</a> |<a href="#"> Privacy</a>
+        <div className="d-flex gap-2 justify-content-center">
+          <a href="#s">Cookie</a> | <a href="#s">Policy</a> | <a href="#s"> Privacy</a>{" "}
+        </div>
       </div>
     </Navbar>
   );
